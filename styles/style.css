@@ -3,6 +3,7 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;  
+  background-color: chartreuse;
 }
 
 
