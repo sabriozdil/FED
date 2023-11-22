@@ -40,12 +40,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.benjerry.nl/
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
-  <img src="readme-images/pagina-1.png" width="375px" alt="omschrijving van de pagina">
+  
+  Home Pagina 
+  
+  <img src="readme-images/pagina-1.png" width="375px" alt="home pagina ben en jerry's">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
-  <img src="readme-images/pagina-2.png" width="375px" alt="omschrijving van de pagina">
+
+  Smaken Pagina
+  
+  <img src="readme-images/pagina-2.png" width="375px" alt="smaken pagina">
+
+  <img src="readme-images/pagina-2-2.png" width="375px" alt="smaken pagina scroll">
  
 </details>
 
