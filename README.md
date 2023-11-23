@@ -103,11 +103,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | Michelle      | Tess          | Sabri    | student 4        |
-  | Animatie            | Flexbox in header     | Wanneer wat gebruiken in CSS      | ---              |
-  | elementen aanspreken | Typografie             | en ik dit    | en dan ik dat    |
-  | opbouw zonder div's | dit als er tijd is | nog een punt | dit wil ik zeker |
-  |  ...           | ...                | ...          | ...              |
+  | Michelle                   
+  -Animatie                
+  -Elementen aanspreken
+  -Opbouw zonder div's
+  
+  | Tess
+  -Flexbox in header
+  -Typografie
+
+  | Sabri
+  -Wanneer welke methode gebruiken in CSS?
 
 
   ### Verslag van meeting
