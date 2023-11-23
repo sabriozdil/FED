@@ -3,7 +3,6 @@
 /**************/
 *, *::after, *::before {
   box-sizing:border-box;  
-  background-color:lightblue;
 }
 
 
@@ -29,9 +28,46 @@
 /****************/
 
 /* jouw code */
+
+body{
+	background-color: #d7e9fa;
+}
+
+
 h1 {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: maroon;
 	
+}
 
+
+
+header {
+/* display: flex; */
+background-color: #0475a1;
+
+}
+
+header ul{
+	display: flex;
+}
+
+header p {
+	
+	background-color:#1d1d1d;
+}
+
+/* header p a {
+
+	background-color:#1d1d1d;
+
+} */
+
+section:nth-of-type(2) {
+	display: flex;
+
+}
+
+section:nth-of-type(2) article img {
+	order: -1;
 }
