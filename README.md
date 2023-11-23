@@ -95,7 +95,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+   Ik heb het gevoel dat ik tot zover goed bezig ben. Ik vind normaal gesproken code niet super leuk maar ik geniet van de FED lessen. Ik cind het leuk dat er een goede balans tussen zelfstandig werken en klassikaal bespreken is.
+  
+  Ik heb een begin gemaakt aan mijn HTML en CSS. Ik ben niet heel goed in Javascript maar ik begin het nu beter te begrijpen. De 5e werkgroep heeft mij geholpen om het systeem van JS beter te begrijpen. Ik heb twee lessen gemist in week 1 waarin Grid en toegankelijkheid werd behandeld. Die moet ik nog inhalen, ik weet namelijk bijna niets over Grid.
 
 
   ### Agenda voor meeting
@@ -129,9 +131,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   
-  Ik heb het gevoel dat ik tot zover goed bezig ben. Ik vind normaal gesproken code niet super leuk maar ik geniet van de FED lessen. Ik cind het leuk dat er een goede balans tussen zelfstandig werken en klassikaal bespreken is.
-  
-  Ik heb een begin gemaakt aan mijn HTML en CSS. Ik ben niet heel goed in Javascript maar ik begin het nu beter te begrijpen. De 5e werkgroep heeft mij geholpen om het systeem van JS beter te begrijpen. Ik heb twee lessen gemist in week 1 waarin Grid en toegankelijkheid werd behandeld. Die moet ik nog inhalen, ik weet namelijk bijna niets over Grid.
+ 
 
 
   ### Agenda voor meeting
