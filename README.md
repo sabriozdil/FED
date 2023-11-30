@@ -75,7 +75,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownschets-1.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -103,20 +103,25 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Michelle                   
+  -Animatie                
+  -Elementen aanspreken
+  -Opbouw zonder div's
+  
+  | Tess
+  -Flexbox in header
+  -Typografie
+
+  | Sabri
+  -Wanneer welke methode gebruiken in CSS?
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - De focus ligt op toegankelijkheid qua aanpassingen en verbeteringen op de website
+  - Aria-labels zijn goed voor toegankelijkheid bij de buttons en forms
+  - 
 
 </details>
 
@@ -130,18 +135,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  
+  Bij het eerste voortgangsgesprek had ik mijn HTML pagina bijna afgemaakt, ik wilde deze week meer focussen op de CSS. Dat was mij gelukt, ik heb fonts toegevoegd, een hover animatie gemaakt etc. Ik heb nog steeds het gevoel dat ik achterloop maar het komt uiteindelijk wel goed.
  
 
-
   ### Agenda voor meeting
-  samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  
+  | Tess
+  - het lukt niet goed om de header te stylen met flexbox en het werkt niet goed mee
+  - mijn afbeeldingen op de homepage moeten een lijst zijn waar je doorheen kan scrollen maar het lukt niet helemaal goed
+  - bij mijn tweede pagina heb ik een background color toegevoegd maar die wordt nu ook toegepast op elementen waarbij ik dat niet wil.
+
+  | Sabri
+  - Wat is de beste manier om een hamburgermenu te maken?
 
 
   ### Verslag van meeting

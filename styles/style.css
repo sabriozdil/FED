@@ -1,24 +1,47 @@
 /**************/
 /* CSS REMEDY */
 /**************/
-*, *::after, *::before {
-  box-sizing:border-box;  
+*,
+*::after,
+*::before {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
 }
 
 
+/* FONTS */
 
+@font-face {
+	font-family: 'chunk';
+	src: url('/assets/fonts/chunkrethunk-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+	font-family: 'sever';
+	src: url('/assets/fonts/severancethesequel_regular-webfont.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
 
+@font-face {
+
+	src: url();
+}
 
 /*********************/
 /* CUSTOM PROPERTIES */
 /*********************/
 :root {
 	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
-}
+	--color-text: #111;
+	--color-background: #d7e9fa;
+	--red: maroon;
+	--cyan: #0475a1;
 
+}
 
 
 
@@ -29,32 +52,87 @@
 
 /* jouw code */
 
-body{
-	background-color: #d7e9fa;
+body {
+	background-color: var(--color-background);
 }
 
 
 h1 {
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color: maroon;
-	
+	font-family: 'chunk';
+	color: var(--red);
+
+}
+
+h2 {
+	font-family: 'chunk';
 }
 
 
+p {
+	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+	;
+}
+
+a {
+	text-decoration: none;
+
+}
+
+/* header */
 
 header {
-/* display: flex; */
-background-color: #0475a1;
+	/* display: flex; */
+	background-color: var(--cyan);
 
 }
 
-header ul{
+header ul {
 	display: flex;
 }
 
-header p {
-	
-	background-color:#1d1d1d;
+header ul li {
+
+	list-style: none;
+
+}
+
+header a img:first-of-type {
+
+	width: 13vw;
+
+}
+
+header a {
+
+	display: inline-block;
+	font-family: 'chunk';
+	text-transform: uppercase;
+	padding: 1em;
+
+}
+
+/* eerste section */
+section:first-of-type a {
+	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+	font-weight: 19px;
+	text-transform: uppercase;
+
+	padding: 1em 4.5em;
+	margin-left:2em;
+	color: var(--cyan);
+	background-color: white;
+	box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
+	display: inline-block;
+	transition: ease;
+	transition-duration: 0.5s;
+
+}
+
+section:first-of-type a:hover {
+
+	transform: rotate(5deg);
+	/* transition:ease;
+transition-duration: 0.5s; */
 }
 
 /* header p a {
@@ -70,4 +148,11 @@ section:nth-of-type(2) {
 
 section:nth-of-type(2) article img {
 	order: -1;
+}
+
+
+section:nth-of-type(4) {
+	/* display: flex; */
+	/* justify-content: center; */
+	/* align-items: center; */
 }
