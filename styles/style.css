@@ -26,10 +26,10 @@
 	font-style: normal;
 }
 
-@font-face {
+/* @font-face {
 
 	src: url();
-}
+} */
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -40,6 +40,7 @@
 	--color-background: #d7e9fa;
 	--red: maroon;
 	--cyan: #0475a1;
+	--yellow: #FFB915;
 
 }
 
@@ -50,7 +51,14 @@
 /* JOUW STYLING */
 /****************/
 
-/* jouw code */
+/* Algemene stijling */
+:focus {
+    background-color: var(--yellow);
+    color: black;
+    outline: none;
+    border-radius: .2em;    
+}
+
 
 body {
 	background-color: var(--color-background);
@@ -67,7 +75,13 @@ h2 {
 	font-family: 'chunk';
 }
 
+h3{
+	font-family: 'chunk';
+}
 
+li{
+	list-style: none;
+}
 p {
 	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 	;
@@ -75,19 +89,40 @@ p {
 
 a {
 	text-decoration: none;
-
+	/* color: aliceblue; */
 }
+
+a:visited{
+
+	text-decoration: none;
+}
+
+/* a:focus{
+	border-width: 2px;
+	border-style:dashed;
+} */
+
+.visually-hidden /*bron:https://www.a11yproject.com/posts/how-to-hide-content/*/{
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+  }
 
 /* header */
 
 header {
 	/* display: flex; */
 	background-color: var(--cyan);
-
 }
 
 header ul {
 	display: flex;
+	justify-content: space-around;
+	align-items: center;
 }
 
 header ul li {
@@ -96,11 +131,7 @@ header ul li {
 
 }
 
-header a img:first-of-type {
 
-	width: 13vw;
-
-}
 
 header a {
 
@@ -108,51 +139,171 @@ header a {
 	font-family: 'chunk';
 	text-transform: uppercase;
 	padding: 1em;
+	color: aliceblue;
+}
+
+header a img:first-of-type {
+	display: block;
+	padding: 0;
+	width: 10vw;
 
 }
 
 /* eerste section */
+
+main section:first-of-type{
+position: relative;
+display: flex;
+margin: 0;
+width:fit-content;
+}
+
+section:first-of-type img{
+
+        width: 100%;
+        /* max-width: 770px; */
+        height: 100%;
+        z-index: 1;
+        object-position: center top;  /* bron: https://css-tricks.com/almanac/properties/o/object-position/ */
+        display: block;
+}
+
+/* ik heb hier div gebruikt om meerdere elementen samen op een img te plaatsen */
+
+main section:first-of-type div {
+	display: flex;
+	text-align: left;
+	flex-direction: column; 
+	justify-content: center;
+	align-items: center;
+	gap: 1.5em;
+
+	position: absolute;
+	left: 3%;
+	right: auto;
+	bottom: 35%;
+	z-index: 2;
+}
+
+section:first-of-type div h3{
+	width: 240px;
+	text-align: left;
+	color: aliceblue;
+	font-size: 30px;
+}
+
+section:first-of-type div p{
+	width: 240px;
+	text-align: left;
+	color: aliceblue;
+}
+
+
+
 section:first-of-type a {
+	
 	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
-	font-weight: 19px;
+	font-weight: bold;
 	text-transform: uppercase;
 
 	padding: 1em 4.5em;
-	margin-left:2em;
+	/* margin-left:2em; */
 	color: var(--cyan);
 	background-color: white;
 	box-shadow: 1px 2px 2px rgba(0,0,0,0.3);
 	display: inline-block;
 	transition: ease;
 	transition-duration: 0.5s;
-
 }
 
 section:first-of-type a:hover {
 
-	transform: rotate(5deg);
+	transform: rotate(2.5deg);
 	/* transition:ease;
 transition-duration: 0.5s; */
 }
 
-/* header p a {
-
-	background-color:#1d1d1d;
-
-} */
-
+/* tweede section */
 section:nth-of-type(2) {
+	margin-top: 2em;
+	margin: 2em;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-rows: 1fr;
+	gap: 2em;
+}
+
+section:nth-of-type(2) ul {
+	display: grid;
+	grid-template-columns: 1fr;
+	grid-template-rows: 1fr 2fr 1fr 1fr;
+}
+
+section:nth-of-type(2) ul li {
 	display: flex;
-
+	align-items: center;
+	justify-content: center;
+	
 }
 
-section:nth-of-type(2) article img {
+section:nth-of-type(2) ul li img {
 	order: -1;
+	width: 90px;
+	
 }
 
+section:nth-of-type(2) ul li p {
+	text-align: center;
+	
+}
 
-section:nth-of-type(4) {
-	/* display: flex; */
-	/* justify-content: center; */
-	/* align-items: center; */
+section:nth-of-type(2) ul li a {
+	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	/* font-size: 19px; */
+	color: var(--cyan);
+}
+
+/* section:nth-of-type(4) { */
+/* } */
+
+section:nth-of-type(4) h2 {
+	text-align: center;
+}
+
+section:nth-of-type(4) h3 {
+	text-align: center;
+}
+
+section:nth-of-type(4) p {
+	text-align: center;
+}
+
+section:nth-of-type(4) ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+section:nth-of-type(4) ul li {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 400px;
+	padding-top: 1em;
+	padding-bottom: 2em;
+
+
+	margin: .5em;
+	border: 1px solid var(--color-text);
+	border-radius: 0.5em;
+	background-color: aliceblue;
+}
+
+section:nth-of-type(4) ul li img{
+	width: 150px;
+	height: auto;
 }

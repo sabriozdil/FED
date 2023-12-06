@@ -153,10 +153,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+  - In de header nav, zet logo als de eerste img in de HTML. Het is de belangrijkste item in de nav. Verander later de volgorde met CSS.
+  - grid-template-column!! Verdiep je je in grid!
+  - articles veranderen in ul, h2>h3, class=visually hidden
+  - ga stap voor stap verder, section voor section, zo wordt elke stap makkelijker
+  - header {position: relative}, 
+        header search {position: absolute, top: 100%, scale:1 0; transform-origin: center top;}
 
 </details>
 
