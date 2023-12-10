@@ -65,6 +65,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
+  
+  
 </details>
 
 
@@ -114,9 +116,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - De focus ligt op toegankelijkheid qua aanpassingen en verbeteringen op de website
+  - De focus ligt vooral op toegankelijkheid qua aanpassingen en verbeteringen op de website
   - Aria-labels zijn goed voor toegankelijkheid bij de buttons en forms
-  - 
 
 </details>
 
