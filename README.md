@@ -65,17 +65,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  -Website is best traag, er zijn heel veel onnodige visuele elementen zoals wolken op de achtergrond die aparte afbeeldingen zijn, dit kan de reden zijn.
-
-  -Leesbaarheid van de eerste sectie met de foto van de campagne ijs is slecht.
-
-  <img src="readme-images/leesbaarheidsprobleem.png" width="375px">
-
-  -Er komt twee keer dezelfde form in de footer voor, alleen de vormgeving is anders.
-
-<img src="readme-images/footer-fout.png" width="375px">
-
-
 </details>
 
 
