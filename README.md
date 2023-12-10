@@ -65,8 +65,17 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  
-  
+  -Website is best traag, er zijn heel veel onnodige visuele elementen zoals wolken op de achtergrond die aparte afbeeldingen zijn, dit kan de reden zijn.
+
+  -Leesbaarheid van de eerste sectie met de foto van de campagne ijs is slecht.
+
+  <img src="readme-images/leesbaarheidsprobleem.png" width="375px">
+
+  -Er komt twee keer dezelfde form in de footer voor, alleen de vormgeving is anders.
+
+<img src="readme-images/footer-fout.png" width="375px">
+
+
 </details>
 
 
@@ -78,7 +87,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### de hele pagina: 
   <img src="readme-images/breakdownschets-1.jpg" width="375px" alt="breakdown van de hele pagina">
-
 
 </details>
 
@@ -116,7 +124,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - De focus ligt vooral op toegankelijkheid qua aanpassingen en verbeteringen op de website
+  - De focus ligt op toegankelijkheid qua aanpassingen en verbeteringen op de website
   - Aria-labels zijn goed voor toegankelijkheid bij de buttons en forms
 
 </details>
@@ -144,17 +152,18 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   | Sabri
   - Wat is de beste manier om een hamburgermenu te maken?
+  - Mag ik hier een article gebruiken? (zie code)
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
   - In de header nav, zet logo als de eerste img in de HTML. Het is de belangrijkste item in de nav. Verander later de volgorde met CSS.
+  - na elke section hoort er een h2 te zijn, dit kan je onzichtbaar maken met (zie bronnenlijst)
   - grid-template-column!! Verdiep je je in grid!
   - articles veranderen in ul, h2>h3, class=visually hidden
   - ga stap voor stap verder, section voor section, zo wordt elke stap makkelijker
-  - header {position: relative}, 
-        header search {position: absolute, top: 100%, scale:1 0; transform-origin: center top;}
+  - code voor zoekbalk laten verschijnen stuurt Sanne naar Helena
 
 </details>
 
@@ -170,6 +179,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
 
+  -Ik kan met Tab de hele homepagina door, maar ik moet nog een paar sections uitwerken voordat de hele pagina af is.
+
+  -Met de screenreader zijn alle headings en links te lezen, ze hebben als het goed is allemaal beschrijvingen en/of aria-labels.
+
+  
+
 </details>
 
 
@@ -182,26 +197,24 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+  Ik heb mijn eerste pagina eindelijk af, ik moet alleen nog de tweede pagina maken, maar die wordt wel een stukje makkelijker omdat ik meeste elementen kan kopieren en plakken naar de tweede pagina. Ik ben nog bezig met responsive maken, ik weet niet of dit goed gaat lukken met de tweede pagina.
 
 
   ### Agenda voor meeting
   samen met je groepje opstellen
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+ | Tess
+  - Hoe maak ik een element onzichtbaar?
+
+  | Sabri
+  - Mijn hover animatie met scale werkt niet op de navbar
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
+  
 
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  - Ik moest display: inline-block gebruiken voor de hover animatie
 
 </details>
 
@@ -243,8 +256,10 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. ChatGpT en andere AI horen er ook bij.
   Nb. Vermeld de bronnen ook in je code.
 
-  1. bron 1
-  2. bron 2
-  3. ...
+  1. Hamburger menu BRON: https://codepen.io/shooft/pen/MWZYoqa
+  2. zoekbalk laten verschijnen BRON: https://codepen.io/shooft/pen/JjxmvrL
+  3. bron: https://www.a11yproject.com/posts/how-to-hide-content/ 
+  4. https://css-tricks.com/almanac/properties/o/object-position/
+  5. ChatGPT
 
 </details>

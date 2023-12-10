@@ -9,6 +9,7 @@
 	<title>Home | Ben & Jerry's</title>
 
 	<link href="styles/style.css" rel="stylesheet">
+	<link href="styles/style_home.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 </head>
 
@@ -17,38 +18,30 @@
 	<header>
 
 
-		<!-- <a href="">Nu bezorgen</a> -->
+		<a href="index.html"><img src="images/logo.png" alt="ben & jerry's logo"></a>
+		<button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-hamburger.svg" alt="" />Menu</button>
 
-
+		
 		<nav>
 
+			<button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-cross.svg" alt="" />Sluit</button>
+
 			<ul>
-
-				<li><a href="index.html">
-						<img src="images/logo.png" alt="ben & jerry's logo">
-					</a></li>
-
-				<li><a href="">Smaken</a></li>
-
+				<li><a href="smaken.html">Smaken</a></li>
 				<li><a href="#">Vind een verkooplocatie</a></li>
-
 				<li><a href="#">Waarden</a></li>
-
 				<li><a href="#">Over ons</a></li>
-
 				<li><a href="#">Wat is nieuw</a></li>
-
-				<li>
-					<form action="">
-						<input type="search" placeholder="vb.: Cherry Garcia">
-						<button type="submit" aria-label="Button zoeken">
-							<img src="images/search.png" alt="zoeken-icoon">
-						</button>
-					</form>
-				</li>
 			</ul>
 		</nav>
 
+		<button class="search"><img src="images/search.png" alt="zoeken-icoon"></button>
+		<form action="">
+			<input type="search" placeholder="vb.: Cherry Garcia">
+			<button type="submit" aria-label="Button zoeken">
+				<img src="images/search.png" alt="zoeken-icoon">
+			</button>
+		</form>
 
 	</header>
 
@@ -76,11 +69,11 @@
 				<li>
 					<h3>Bewuste ingredienten</h3>
 				</li>
-				<li><img src="images/v2-cow.webp" alt=""></li>
+				<li><img src="images/v2-cow.webp" alt="Bewuste ingredienten tekening"></li>
 				<li>
 					<p>Onze ingrediënten ondersteunen positieve verandering en laten ons ijs fairrukkelijk smaken!</p>
 				</li>
-				<li><a href="">Onze productie</a></li>
+				<li><a href="#">Onze productie</a></li>
 			</ul>
 
 
@@ -88,102 +81,128 @@
 				<li>
 					<h3>Gezamenlijk succes</h3>
 				</li>
-				<li><img src="images/v2-peace.webp" alt=""></li>
+				<li><img src="images/v2-peace.webp" alt="peace tekening"></li>
 				<li>
 					<p>We streven ernaar om welvaart te creëren voor iedereen die met ons bedrijf verbonden is.</p>
 				</li>
-				<li><a href="">Onze waarden & missie</a></li>
+				<li><a href="#">Onze waarden & missie</a></li>
 			</ul>
 
 			<ul>
 				<li>
 					<h3>Een verschil maken</h3>
 				</li>
-				<li><img src="images/v2-earth.webp" alt=""></li>
+				<li><img src="images/v2-earth.webp" alt="duurzaamheid tekening"></li>
 				<li>
 					<p>We willen zichtbaarheid en support geven aan de onderwerpen waar wij zelf in geloven</p>
 				</li>
-				<li><a href="">Onderwerpen die ons bezig houden</a></li>
+				<li><a href="#">Onderwerpen die ons bezig houden</a></li>
 			</ul>
 		</section>
 
 		<!-- section 3 -->
+		 
 		<section>
-			<img src="" alt="">
-			<img src="" alt="">
+			<h3>Hoe wil jij graag je euforie?</h3>
+			<p>Er zijn zoveel manieren om van Ben & Jerry's te genieten. En met al onze smaken, is er voor iedereen
+				wat
+				wils.</p>
+
+			<ul class="lijst">
+				<li>
+					<h4><a href="#">Classics</a></h4>
+					<img src="images/cookie-dough-landing.webp" alt="Classics ijs">
+				</li>
+
+				<li>
+					<h4><a href="#">Non-Dairy</a></h4>
+					<img src="images/chocolatey-love-a-fair-non-dairy-landing-closed.webp" alt="Non-dairy ijs">
+				</li>
+
+				<li>
+					<h4><a href="#">Topped</a></h4>
+					<img src="images/hazel-nuttin-but-chocolate-closed.webp" alt="Topped ijs">
+				</li>
+
+				<li>
+					<h4><a href="#">Nieuw: A Chocolatey Love A-Fair</a></h4>
+					<img src="images/chocolatey-love-a-fair-closed.webp" alt="A chocolatey love affair ijs">
+				</li>
+
+				<li>
+					<h4><a href="#">Moo-phoria™ Light Ice Cream</a></h4>
+					<img src="images/lighten-up-chocolate-cookie-dough-landing.webp" alt="Moophoria ijs">
+				</li>
+
+				<li>
+					<h4><a href="#">Netflix Original Ijssmaken</a></h4>
+					<img src="images/netflix-chilld-landing-closed.webp" alt="Netflix original ijs">
+				</li>
+			</ul>
 		</section>
 
 		<!-- section 4 -->
+
 		<section>
-			<h3>Hoe wil jij graag je euforie?</h2>
-				<p>Er zijn zoveel manieren om van Ben & Jerry's te genieten. En met al onze smaken, is er voor iedereen
-					wat
-					wils.</p>
+			<h3>Recent Highlights</h3>
 
-				<ul>
-					<li>
-						<h4><a href="">Classics</a></h4>
-						<img src="images/cookie-dough-landing.webp" alt="">
-					</li>
+			<ul class="lijst">
+				<li>
+					<h4><a href="#">Vind ijs bij mij in de buurt!</a></h4>
+					<img src="images/Global_delivery.webp" alt="Ben en jerry">
+				</li>
 
-					<li>
-						<h4><a href="">Non-Dairy</a></h4>
-						<img src="images/chocolatey-love-a-fair-non-dairy-landing-closed.webp" alt="">
-					</li>
+				<li>
+					<h4><a href="#">Caramel Brownie Movie Night met Pathé Thuis film cadeau!</a></h4>
+					<img src="images/NL_spotlight_caramel-brownie-movie-night.webp" alt="Ben en jerry - Caramel Brownie Movie Night">
+				</li>
 
-					<li>
-						<h4><a href="">Topped</a></h4>
-						<img src="images/hazel-nuttin-but-chocolate-closed.webp" alt="">
-					</li>
+				<li>
+					<h4><a href="#">30yrs of Cookie Dough vieren wij met heel veel Dough!</a></h4>
+					<img src="images/GR_flavors.webp" alt="Ben en jerry - cookie dough">
+				</li>
 
-					<li>
-						<h4><a href="">Nieuw: A Chocolatey Love A-Fair</a></h4>
-						<img src="images/chocolatey-love-a-fair-closed.webp" alt="">
-					</li>
-
-					<li>
-						<h4><a href="">Moo-phoria™ Light Ice Cream</a></h4>
-						<img src="images/lighten-up-chocolate-cookie-dough-landing.webp" alt="">
-					</li>
-
-					<li>
-						<h4><a href="">Netflix Original Ijssmaken</a></h4>
-						<img src="images/netflix-chilld-landing-closed.webp" alt="">
-					</li>
-				</ul>
-
+				<li>
+					<h4><a href="#">3400 brieven voor #SOSMoria. What's next, lees hier meer!</a></h4>
+					<img src="images/NL_spotlight_SOSMoriawhatnext.webp" alt="3400 brieven voor een humaan asielbeleid">
+				</li>
+			</ul>
 		</section>
 
 		<!-- section 5 -->
 
 		<section>
-			<h2>Recent Highlights</h2>
+			<h3>Recent Blog Posts</h3>
+			<ul class="lijst">
+				<li>
+					<h4 class="visually-hidden"><a href="#">Xenofobie</a></h4>
+					<img src="/images/stem.webp" alt="stem foto">
+					<p>15 november 2023</p>
+					<p>Wordt xenofobie in Nederland bewust versterkt door politieke partijen?​</p>
+				</li>
 
-			<ul>
-				<li></li>
+				<li>
+					<h4 class="visually-hidden"><a href="#">Verkiezingspraat:Asielzoekers en huisvesting</a></h4>
+					<img src="/images/stem.webp" alt="stem foto">
+					<p>7 november 2023</p>
+					<p>Feiten of verkiezingspraat: hoe zit het écht met de huisvesting van asielzoekers?</p>
+				</li>
 
-				<li></li>
+				<li>
+					<h4 class="visually-hidden"><a href="#">Verkiezingspraat: Asielzoekers en werk</a></h4>
+					<img src="/images/stem.webp" alt="stem foto">
+					<p>1 november 2023</p>
+					<p>Feiten of verkiezingspraat: hoe zit het écht met asielzoekers en werk?</p>
+				</li>
 
-				<li></li>
-
-				<li></li>
+				<li>
+					<h4 class="visually-hidden"><a href="#">Stemmen</a></h4>
+					<img src="/images/stem.webp" alt="stem foto">
+					<p>1 november 2023</p>
+					<p>Stem wIJS​</p>
+				</li>
 			</ul>
-
-		</section>
-
-		<!-- section 6 -->
-
-		<section>
-			<h2>Recent Blog Posts</h2>
-			<ul>
-				<li></li>
-
-				<li></li>
-
-				<li></li>
-
-				<li></li>
-			</ul>
+			<a href="#">VISIT OUR BLOG</a>
 		</section>
 
 		<script src="scripts/script.js"></script>
