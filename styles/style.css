@@ -14,14 +14,14 @@
 
 @font-face {
 	font-family: 'chunk';
-	src: url('/assets/fonts/chunkrethunk-webfont.woff') format('woff');
+	src: url('../assets/fonts/chunkrethunk-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
 
 @font-face {
 	font-family: 'sever';
-	src: url('/assets/fonts/severancethesequel_regular-webfont.woff') format('woff');
+	src: url('../assets/fonts/severancethesequel_regular-webfont.woff') format('woff');
 	font-weight: normal;
 	font-style: normal;
 }
@@ -141,7 +141,7 @@ a:visited{
 		justify-content: space-between;
 		align-items: center;
 		flex-direction: row;
-		position: sticky;
+		/* position: sticky; */
 		top: 0;
 		z-index: 1;
 	}
