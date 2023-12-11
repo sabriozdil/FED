@@ -97,7 +97,7 @@ main>section {
 		display: flex;
 		flex-direction: column;
 		gap: 3em;
-		background-image: url(/images/v2-bg.webp);
+		background-image: url(../images/v2-bg.webp);
 		align-items: center;
 		justify-content: center;
 	}
@@ -201,7 +201,7 @@ main>section {
 		position: relative;
 		padding: 0 4em 4em 4em;
 		margin: 0;
-		background-image: url(/images/v2-recent-bg.webp);
+		background-image: url(../images/v2-recent-bg.webp);
 		background-repeat: no-repeat;
 		background-size: cover;
 	}
@@ -420,7 +420,7 @@ main>section {
 		grid-template-columns: 1fr 1fr 1fr;
 		grid-template-rows: 1fr;
 		gap: 2em;
-		background-image: url(/images/v2-bg.webp);
+		background-image: url(../images/v2-bg.webp);
 	}
 
 	main>section:nth-of-type(2) ul {
